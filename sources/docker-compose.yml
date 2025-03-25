@@ -1,0 +1,6 @@
+services:
+  rss_collector:
+    build: .
+    container_name: rss_collector
+    volumes:
+      - ./output:/app/output
